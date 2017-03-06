@@ -19,6 +19,8 @@
 		B642197118BE3ADA00D1BA3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B642195918BE3ADA00D1BA3F /* UIKit.framework */; };
 		B642197918BE3ADA00D1BA3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B642197718BE3ADA00D1BA3F /* InfoPlist.strings */; };
 		B642197B18BE3ADA00D1BA3F /* testCreateIOSProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B642197A18BE3ADA00D1BA3F /* testCreateIOSProjectTests.m */; };
+		B646230418CF6CE800AC58EF /* weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = B646230318CF6CE800AC58EF /* weapon.m */; };
+		B646230A18CF773F00AC58EF /* sword.m in Sources */ = {isa = PBXBuildFile; fileRef = B646230918CF773F00AC58EF /* sword.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		B642197618BE3ADA00D1BA3F /* testCreateIOSProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testCreateIOSProjectTests-Info.plist"; sourceTree = "<group>"; };
 		B642197818BE3ADA00D1BA3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B642197A18BE3ADA00D1BA3F /* testCreateIOSProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testCreateIOSProjectTests.m; sourceTree = "<group>"; };
+		B646230218CF6CE800AC58EF /* weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = weapon.h; path = "../../../IOSTools/16669-4+深入浅出Objective-C 源代码/04/weapon.h"; sourceTree = "<group>"; };
+		B646230318CF6CE800AC58EF /* weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = weapon.m; path = "../../../IOSTools/16669-4+深入浅出Objective-C 源代码/04/weapon.m"; sourceTree = "<group>"; };
+		B646230818CF773F00AC58EF /* sword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sword.h; sourceTree = "<group>"; };
+		B646230918CF773F00AC58EF /* sword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sword.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,10 @@
 		B642195B18BE3ADA00D1BA3F /* testCreateIOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				B646230218CF6CE800AC58EF /* weapon.h */,
+				B646230318CF6CE800AC58EF /* weapon.m */,
+				B646230818CF773F00AC58EF /* sword.h */,
+				B646230918CF773F00AC58EF /* sword.m */,
 				B642196418BE3ADA00D1BA3F /* JSAppDelegate.h */,
 				B642196518BE3ADA00D1BA3F /* JSAppDelegate.m */,
 				B642196718BE3ADA00D1BA3F /* Images.xcassets */,
@@ -241,7 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B642196218BE3ADA00D1BA3F /* main.m in Sources */,
+				B646230A18CF773F00AC58EF /* sword.m in Sources */,
 				B642196618BE3ADA00D1BA3F /* JSAppDelegate.m in Sources */,
+				B646230418CF6CE800AC58EF /* weapon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +454,7 @@
 				B642198018BE3ADA00D1BA3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B642198118BE3ADA00D1BA3F /* Build configuration list for PBXNativeTarget "testCreateIOSProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +463,7 @@
 				B642198318BE3ADA00D1BA3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
